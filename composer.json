@@ -1,0 +1,21 @@
+{
+    "name": "fernet/auth",
+    "description": "Auth plugin for the Fernet framework",
+    "type": "library",
+    "require": {
+        "fernet/framework": "^0.3",
+        "fernet/doctrine": "^0.3"
+    },
+    "autoload": {
+        "psr-4": {"AuthFernet\\": "src"}
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo 'Albo' Arce",
+            "email": "albo@pragmore.com"
+        }
+    ],
+      "minimum-stability": "dev",
+      "prefer-stable": true
+}
